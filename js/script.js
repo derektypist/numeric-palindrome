@@ -11,9 +11,9 @@ function getNumberInfo() {
         txt += `You have entered the number ${num}.<p>`;
         // Check if the number is a palidrome
         if (isPalindrome(num)) {
-            txt += `Number ${num} is a palindrome`;
+            txt += `Number ${num} is a palindrome.`;
         } else {
-            txt += `Number ${num} is not a palindrome`;
+            txt += `Number ${num} is not a palindrome.`;
         }
        
     }
