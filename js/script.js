@@ -1,5 +1,7 @@
 // Set Up Variables
 let txt="";
+
+// Get Number Information (including invalid input)
 function getNumberInfo() {
     // Get the value of the input field
     let num = document.getElementById("mynumber").value;
@@ -18,7 +20,7 @@ function getNumberInfo() {
        
     }
      document.getElementById("numinfo").innerHTML = txt;
-     // Clear Text Information
+     // Clear Text Information for the next submission of form
      txt = "";
 }
 
