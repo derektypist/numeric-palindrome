@@ -16,10 +16,11 @@
             <h1>Numeric Palindrome</h1>
         </header>
         <section class="container-fluid">
-            <p>Please enter a number between 0 and 9999999999</p>
+            
             <!-- Set Up Form -->
             <form class="form-group">
-                <input class="form-control" placeholder="Enter number between 0 and 9999999999" id="mynumber">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" placeholder="Enter number between 0 and 9999999999 (e.g. 61)" id="mynumber">
                 <p></p>
                 <button type="button" onclick="getNumberInfo()">Submit</button>
                 <button type="reset" onclick="clearInfo()">Reset</button>
