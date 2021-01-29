@@ -4,7 +4,11 @@ body {
     font-family: "Roboto",Arial,Verdana,sans-serif;
 }
 
-
+/* Form */
+form {
+    display: block;
+    margin: auto;
+}
 /* Number Information */
 #numinfo {
     padding: 15px;
