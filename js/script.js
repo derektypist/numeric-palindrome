@@ -29,3 +29,8 @@ function isPalindrome(x) {
     }
     return answer == x;
 }
+
+function clearInfo() {
+    let txt="";
+    document.getElementById("numinfo").innerHTML = txt;
+}
