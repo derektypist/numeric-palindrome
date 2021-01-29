@@ -18,6 +18,8 @@ function getNumberInfo() {
        
     }
      document.getElementById("numinfo").innerHTML = txt;
+     // Clear Text Information
+     txt = "";
 }
 
 // Function to Check if the number is a palindrome
