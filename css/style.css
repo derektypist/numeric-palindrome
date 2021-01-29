@@ -4,11 +4,6 @@ body {
     font-family: "Roboto",Arial,Verdana,sans-serif;
 }
 
-/* Buttons */
-#btn-center {
-    display: block;
-    margin: auto;
-}
 
 /* Number Information */
 #numinfo {
