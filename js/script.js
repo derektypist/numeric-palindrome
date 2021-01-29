@@ -5,18 +5,19 @@ function getNumberInfo() {
     let num = document.getElementById("mynumber").value;
     // Check if number is valid
     if (isNaN(num) || num<0 || num>9999999999 ) {
-        alert("Invalid input.  Must be a number and it is between 0 and 9999999999.");
+       txt += `Invalid Input.  Please enter a number between 0 and 9999999999.`;
     } else {
         // Display entered number
-        txt += `You have entered the number {num}.<p>`;
+        txt += `You have entered the number ${num}.<p>`;
         // Check if the number is a palidrome
         if (isPalindrome(num)) {
-            txt += `Number {num} is a palindrome`;
+            txt += `Number ${num} is a palindrome`;
         } else {
-            txt += `Number {num} is not a palindrome`;
+            txt += `Number ${num} is not a palindrome`;
         }
-        document.getElementById("numinfo").innerHTML = txt;
+       
     }
+     document.getElementById("numinfo").innerHTML = txt;
 }
 
 function isPalindrome(x) {
