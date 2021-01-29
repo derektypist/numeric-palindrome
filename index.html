@@ -21,8 +21,12 @@
             <form>
                 <label for="mynumber" class="form-label">Number (Required)</label>
                 <input class="form-control" placeholder="Enter number between 0 and 9999999999 (e.g. 61)" id="mynumber">
-                <button type="button" onclick="getNumberInfo()" class="btn btn-primary btn-block">Submit</button>
-                <button type="reset" onclick="clearInfo()" class="btn btn-warning btn-block">Reset</button>
+                <p></p>
+                <div class="btn-group">
+                    <button type="button" onclick="getNumberInfo()" class="btn btn-primary">Submit</button>
+                    <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
+                </div>
+                
             </form>
             <!-- Display Number Information -->
             <p id="numinfo"></p>
