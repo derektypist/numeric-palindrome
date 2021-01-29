@@ -3,3 +3,8 @@
 body {
     font-family: "Roboto",Arial,Verdana,sans-serif;
 }
+
+/* Number Information */
+#numinfo {
+    color: seagreen;
+}
