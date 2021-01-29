@@ -18,12 +18,12 @@
         <section class="container-fluid">
             
             <!-- Set Up Form -->
-            <form class="form-group">
+            <form class="form-inline">
                 <label for="mynumber" class="form-label">Number (Required)</label>
                 <input class="form-control" placeholder="Enter number between 0 and 9999999999 (e.g. 61)" id="mynumber">
                 <p></p>
-                <button type="button" onclick="getNumberInfo()">Submit</button>
-                <button type="reset" onclick="clearInfo()">Reset</button>
+                <button type="button" onclick="getNumberInfo()" class="btn btn-primary">Submit</button>
+                <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
             </form>
             <!-- Display Number Information -->
             <p id="numinfo"></p>
