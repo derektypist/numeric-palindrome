@@ -71,3 +71,17 @@ an error message `Invalid input.  Please enter a number between 0 and 9999999999
 
 Deployed on [GitHub Pages](https://derektypist.github.io/numeric-palindrome) at the main branch.
 
+## Credits
+
+### Content
+
+Written by me, although referred to other sources such as Stack Overflow, Geeks for Geeks and W3 Schools.
+
+### Acknowledgements
+
+* [Geeks For Geeks](https://www.geeksforgeeks.org)
+* [Stack Overflow](https://www.stackoverflow.com)
+* [w3 Schools](https://www.w3schools.com)
+* [Bootstrap](https://www.getbootstrap.com)
+
+
