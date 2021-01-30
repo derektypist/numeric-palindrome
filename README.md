@@ -77,6 +77,14 @@ Deployed on [GitHub Pages](https://derektypist.github.io/numeric-palindrome) at 
 ### Content
 
 Written by me, although referred to other sources such as Stack Overflow, Geeks for Geeks and W3 Schools.
+Went to Geeks for Geeks Page on the isPalindrome Function (any Programming Language such as Python) 
+in Super Palindromes.
+
+Went to Stack Overflow for the isInteger (JavaScript).
+
+Went to W3Schools.com for the Form Validation (JavaScript).
+
+Went to Bootstrap for Centering Buttons and setting their width.
 
 ### Acknowledgements
 
