@@ -24,6 +24,31 @@ The valid number is between 0 and 9999999999 and it is an integer.
 
 The function isPalindrome returns true or false.
 
+How the function isPalindrome Works
+
+`Set the answer to 0 and copy the entered number into a new variable (e.g. temp).`
+`Formula answer = answer * 10 + temp%10`
+`temp = Math.floor(temp/10)`
+`Repeat until temp is 0`
+`Compare the answer to the entered number (i.e. answer == x)`
+
+`Example 1 - 142`
+`In the 1st stage, answer becomes 2 and temp becomes 14`
+`In the 2nd stage, answer becomes 24 and temp becomes 1`
+`In the 3rd stage, answer becomes 241 and temp becomes 0`
+`Does 241 equal 142?  No, so 142 is not a palindrome.`
+
+`Example 2 - 161`
+`In the 1st stage, answer becomes 1 and temp becomes 16`
+`In the 2nd stage, answer becomes 16 and temp becomes 1`
+`In the 3rd stage, answer becomes 161 and temp becomes 0`
+`Does 161 equal 161?  Yes, so 161 is a palindrome.`
+
+
+
+
+
 ## Features
 
 Features form validation in terms of data type, number type, value of number and empty form fields.
+Gives information on the number entered and checks if the number is a palindrome.
