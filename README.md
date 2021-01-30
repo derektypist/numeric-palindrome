@@ -1,6 +1,6 @@
 # Numeric Palindrome
 
-The purpose of the exercise is to check if the number is a palindrome.  A palindrome
+The purpose of the project is to check if the number is a palindrome.  A palindrome
 is a number, which reads the same backward as forward, such as 111, 4, 161 and 4884.
 
 ## UX
@@ -36,19 +36,23 @@ How the function isPalindrome Works
 `In the 1st stage, answer becomes 2 and temp becomes 14`
 `In the 2nd stage, answer becomes 24 and temp becomes 1`
 `In the 3rd stage, answer becomes 241 and temp becomes 0`
-`Does 241 equal 142?  No, so 142 is not a palindrome.`
+`Does 241 equal 142?  No, so 142 is not a palindrome (returns false).`
 
 `Example 2 - 161`
 `In the 1st stage, answer becomes 1 and temp becomes 16`
 `In the 2nd stage, answer becomes 16 and temp becomes 1`
 `In the 3rd stage, answer becomes 161 and temp becomes 0`
-`Does 161 equal 161?  Yes, so 161 is a palindrome.`
-
-
-
+`Does 161 equal 161?  Yes, so 161 is a palindrome (returns true).`
 
 
 ## Features
 
 Features form validation in terms of data type, number type, value of number and empty form fields.
 Gives information on the number entered and checks if the number is a palindrome.
+When clicking on the submit button, fresh information appears.  It has a reset button in case of
+an emergency.
+
+## Technologies
+
+This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta1, Google Fonts and JavaScript.
+
