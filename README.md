@@ -15,10 +15,17 @@ Invalid inputs are
 * `Empty field`
 * `Number not an integer (e.g. 65.7)`
 
-As a user, I want to see what number I have entered, as long as the input is valid.
-As a user, I want to see if the number is a palindrome or not.
+As a user, I want to see what number I have entered and if that number is a palindrome
+as long as the input is valid.
+
+As a user, if I enter 141, I should get the message `Number 141 is a palindrome.` on the second line.
+As a user, if I enter 142, I should get the message, `Number 142 is not a palindrome.` on the second line.
+
 As a user, for every time I hit the submit button, I want to see fresh information.
 As a user, I want to reset if I make a mistake for example.
+As a user, I expect placeholders on the input field.
+As a user, I want an indication of required on the label, so that I know that it is compulsory to
+enter something in the field. 
 
 The valid number is between 0 and 9999999999 and it is an integer.
 
@@ -44,7 +51,6 @@ How the function isPalindrome Works
 `In the 3rd stage, answer becomes 161 and temp becomes 0`
 `Does 161 equal 161?  Yes, so 161 is a palindrome (returns true).`
 
-
 ## Features
 
 Features form validation in terms of data type, number type, value of number and empty form fields.
@@ -55,4 +61,13 @@ an emergency.
 ## Technologies
 
 This project uses the technologies of HTML5, CSS3, Bootstrap 5.0.0-beta1, Google Fonts and JavaScript.
+
+## Testing
+
+Ensure all the user stories have been met.  For example, if I do not enter anything on the field, I get
+an error message `Invalid input.  Please enter a number between 0 and 9999999999.`
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/numeric-palindrome) at the main branch.
 
